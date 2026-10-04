@@ -9,7 +9,7 @@ Na Vercel, clique em **Add New > Project**, importe este repositório e clique e
 Tudo fica no topo do `script.js`:
 - `LOJA.whatsapp`: número com DDI e DDD, só dígitos (ex.: `5511987654321`).
 - `LOJA.instagram`, `LOJA.tiktok`, `LOJA.email`: perfis e e-mail reais.
-- `PRODUTOS`: nome, preço e tipo de cada peça da vitrine (até 6). Para usar foto, coloque a imagem em `assets/` e preencha `foto: "assets/arquivo.jpg"`.
+- `PRODUTOS`: nome, preço e tipo de cada peça da vitrine (até 6). Para usar foto, coloque a imagem junto do `index.html` (sem criar pasta) e preencha `foto: "arquivo.jpg"`.
 
 No `index.html`: a frase da bio e a linha de atendimento (cidade e horário).
 
@@ -17,4 +17,6 @@ No `index.html`: a frase da bio e a linha de atendimento (cidade e horário).
 - `index.html`: estrutura e textos
 - `styles.css`: cores (variáveis em `:root`) e layout
 - `script.js`: links, vitrine e botão de compartilhar
-- `assets/`: logo e favicon
+- `logo.png` e `favicon.png`: logo e ícone da aba
+
+Todos os arquivos ficam na raiz, sem pastas, para a Vercel não escolher uma subpasta como Root Directory (isso causa erro 404).

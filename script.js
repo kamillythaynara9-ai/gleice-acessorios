@@ -10,7 +10,7 @@ const LOJA = {
 };
 
 /* Vitrine: até 6 peças. "tipo" escolhe o desenho (anel, colar, brinco, pulseira, conjunto, relogio).
-   Se tiver foto, coloque em assets/ e preencha "foto": "assets/nome.jpg". */
+   Se tiver foto, coloque na mesma pasta do index.html e preencha "foto": "nome-da-foto.jpg". */
 const PRODUTOS = [
   { nome: "Anel Solitário Dourado", preco: "R$ 39,90", tipo: "anel" },
   { nome: "Colar Ponto de Luz", preco: "R$ 49,90", tipo: "colar" },
