@@ -248,3 +248,13 @@ body {
   .coluna { padding-top: 64px; }
   .vitrine__grade { grid-template-columns: repeat(3, 1fr); }
 }
+
+/* Contato (abaixo da vitrine) */
+.contato { width: 100%; display: flex; flex-direction: column; align-items: center; gap: 16px; }
+.contato__titulo {
+  font-family: var(--fonte-titulo);
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1;
+}
+.contato .sociais { margin-top: 0; }
